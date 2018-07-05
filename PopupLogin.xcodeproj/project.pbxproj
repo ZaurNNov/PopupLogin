@@ -13,6 +13,8 @@
 		CE454C5C20EE29BA00772B62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE454C5B20EE29BA00772B62 /* Assets.xcassets */; };
 		CE454C5F20EE29BA00772B62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE454C5D20EE29BA00772B62 /* LaunchScreen.storyboard */; };
 		CE454C6720EE329100772B62 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE454C6620EE329100772B62 /* DesignableButton.swift */; };
+		CE454C6920EE415800772B62 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE454C6820EE415800772B62 /* DesignableView.swift */; };
+		CE454C6B20EE439200772B62 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE454C6A20EE439200772B62 /* SignUpVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CE454C5E20EE29BA00772B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE454C6020EE29BB00772B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE454C6620EE329100772B62 /* DesignableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		CE454C6820EE415800772B62 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		CE454C6A20EE439200772B62 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				CE454C5D20EE29BA00772B62 /* LaunchScreen.storyboard */,
 				CE454C6020EE29BB00772B62 /* Info.plist */,
 				CE454C6620EE329100772B62 /* DesignableButton.swift */,
+				CE454C6820EE415800772B62 /* DesignableView.swift */,
+				CE454C6A20EE439200772B62 /* SignUpVC.swift */,
 			);
 			path = PopupLogin;
 			sourceTree = "<group>";
@@ -138,8 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE454C6920EE415800772B62 /* DesignableView.swift in Sources */,
 				CE454C5720EE29B800772B62 /* ViewController.swift in Sources */,
 				CE454C5520EE29B800772B62 /* AppDelegate.swift in Sources */,
+				CE454C6B20EE439200772B62 /* SignUpVC.swift in Sources */,
 				CE454C6720EE329100772B62 /* DesignableButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
